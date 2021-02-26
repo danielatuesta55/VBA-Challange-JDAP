@@ -18,6 +18,8 @@ my solution to the homework assignment VBA scripting. The repository will be org
 2. Folder two will have the screenshots for the solutions. Inside this folder you will have two other folders each one containing the screenshots of the Alphabetical testing results and the Multi Yearly Stock Data.
 3. Folder three contains all the VBA scripts used for both the alphabetical testing and the Multi Yealy Stock Data. They are essentially the same code what changes are the Sub () name.
 
+I hope you find my work to not only be complete but displaying all of the knowledge learned through out this portion of the Bootcamp at Northwestern University.
+
 ---
 
 I am attaching the assigment instructions provided by the school:

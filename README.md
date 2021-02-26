@@ -11,19 +11,17 @@ February, 2021
 
 ---
 
-
 On the following repository the reader will be able to find
-my solution to the homework assignment VBA scripting. The solution will be
-divided into two folders:
+my solution to the homework assignment VBA scripting. The repository will be organized into several folders:
 
-1. A folder containing a screen shot for each year
-   of your results on the Multi Year Stock Data.
-2. A folder containing all the VBA Scripts as
-   separate files
+1. Folder one will have Images that are related to the readme.md class instructions. You can avoid navigating this folder
+2. Folder two will have the screenshots for the solutions. Inside this folder you will have two other folders each one containing the screenshots of the Alphabetical testing results and the Multi Yearly Stock Data.
+3. Folder three contains all the VBA scripts used for both the alphabetical testing and the Multi Yealy Stock Data. They are essentially the same code what changes are the Sub () name.
 
 ---
 
 I am attaching the assigment instructions provided by the school:
+
 # VBA Homework - The VBA of Wall Street
 
 ## Background
@@ -33,13 +31,11 @@ You are well on your way to becoming a programmer and Excel master! In this home
 ### Before You Begin
 
 1. Create a new repository for this project called `VBA-challenge`. **Do not add this homework to an existing repository**.
-
 2. Inside the new repository that you just created, add any VBA files you use for this assignment. These will be the main scripts to run for each analysis.
 
 ### Files
 
 * [Test Data](Resources/alphabetical_testing.xlsx) - Use this while developing your scripts.
-
 * [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
 
 ### Stock market analyst
@@ -51,15 +47,10 @@ You are well on your way to becoming a programmer and Excel master! In this home
 * Create a script that will loop through all the stocks for one year and output the following information.
 
   * The ticker symbol.
-
   * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
-
   * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
-
   * The total stock volume of the stock.
-
 * You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
 * The result should look as follows.
 
 ![moderate_solution](Images/moderate_solution.png)
@@ -75,7 +66,6 @@ You are well on your way to becoming a programmer and Excel master! In this home
 ### Other Considerations
 
 * Use the sheet `alphabetical_testing.xlsx` while developing your code. This data set is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
-
 * Make sure that the script acts the same on each sheet. The joy of VBA is to take the tediousness out of repetitive task and run over and over again with a click of the button.
 
 ## Submission
@@ -83,16 +73,12 @@ You are well on your way to becoming a programmer and Excel master! In this home
 * To submit please upload the following to Github:
 
   * A screen shot for each year of your results on the Multi Year Stock Data.
-
   * VBA Scripts as separate files.
-
 * Ensure your repository has regular commits (i.e. 10+ commits), a thorough README.md file
+* After everything has been saved, create a sharable link and submit that to [https://bootcampspot-v2.com/](https://bootcampspot-v2.com/).
 
-* After everything has been saved, create a sharable link and submit that to <https://bootcampspot-v2.com/>.
-
-- - -
+---
 
 ### Copyright
 
 Trilogy Education Services © 2019. All Rights Reserved.
-

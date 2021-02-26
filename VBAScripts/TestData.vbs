@@ -95,7 +95,7 @@ Sub TestData ()
                 Next i 
             
     'PART 11: I need to be able to know what is the last non-blank cell in column J to star my Challange table 
-        LastRowColumnJ = ws.Cells(Rows.Count,10).End(xlUp).Row)
+        LastRowColumnJ = ws.Cells(Rows.Count,10).End(xlUp).Row
         'I can crete a msgbox to see if its ok
         'Msgbox("The last row in column J is" & LastRowColumnJ)
 
@@ -114,19 +114,32 @@ Sub TestData ()
                 GreatestVolume = GreatestVolume
             'close conditional with End If statement
             End If
-
-
-
-
-
-
-
-
+    'PART 15: Getting the Greatest increase. I am gointo to repeat step 14 but instead of total volume column I will use the percentage change column Range L2:L
+            If ws.Cells(i,12).Value> GreatestIncrease then 
+                GreatestIncrease = ws.Cells(i,12).Value
+                ws.Cells(2,17).value = ws.Cells(i,10).Value
+            'finish the conditional with an else statement
+            Else    
+                GreatestIncrease = GreatestIncrease
+            'close conditional with End If statement
+            End If
+    'PART 16: Getting the Greatest decrease. I am gointo to repeat step 15 but looking for the decrease in the data
+             If ws.Cells(i,12).Value> GreatestDecrease then 
+                GreatestDecrease = ws.Cells(i,12).Value
+                ws.Cells(3,17).value = ws.Cells(i,10).Value
+            'finish the conditional with an else statement
+            Else    
+                GreatestDecrease = GreatestDecrease
+            End If
+    'PART 17: Display values on the challange table corresponding ws cells
+        ws.Cells(2,18).Value = Format(GreatestIncrease,"Percent")
+        ws.Cells(3,18).Value = Format(GreatestDecrease,"Percent")
+        ws.Cells(4,18).Value = Format(GreatestVolume, "Scientific")
         
-
-
-
-
+        'Close loop with next i statement
+        Next i 
+    'PART 18: I want to adjust the columns width automatically 
+    Worksheets(WorksheetName).columns("A:Z").AutoFit
 
     ' I need to close the loop creted to go through all of the worksheets on the workbook with an Next ws statement
     Next ws

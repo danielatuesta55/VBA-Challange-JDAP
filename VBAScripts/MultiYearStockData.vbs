@@ -1,5 +1,5 @@
 Sub MultiYearStockData_JDAP ()
-    
+        
     'PART 1: I need to create a Loop that works through out all the worksheets in the workbook. For this I will use For Each ws In Worksheets command.
     For Each ws In Worksheets
     'PART 2: Declare all the variables that are going to be used 
@@ -115,7 +115,7 @@ Sub MultiYearStockData_JDAP ()
             'close conditional with End If statement
             End If
     'PART 15: Getting the Greatest increase. I am gointo to repeat step 14 but instead of total volume column I will use the percentage change column Range L2:L
-            If ws.Cells(i,12).Value> GreatestIncrease then 
+            If ws.Cells(i,12).Value < GreatestIncrease then 
                 GreatestIncrease = ws.Cells(i,12).Value
                 ws.Cells(2,17).value = ws.Cells(i,10).Value
             'finish the conditional with an else statement
@@ -124,7 +124,7 @@ Sub MultiYearStockData_JDAP ()
             'close conditional with End If statement
             End If
     'PART 16: Getting the Greatest decrease. I am gointo to repeat step 15 but looking for the decrease in the data
-             If ws.Cells(i,12).Value> GreatestDecrease then 
+             If ws.Cells(i,12).Value < GreatestDecrease then 
                 GreatestDecrease = ws.Cells(i,12).Value
                 ws.Cells(3,17).value = ws.Cells(i,10).Value
             'finish the conditional with an else statement

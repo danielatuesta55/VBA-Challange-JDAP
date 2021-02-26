@@ -115,7 +115,7 @@ Sub MultiYearStockData_JDAP ()
             'close conditional with End If statement
             End If
     'PART 15: Getting the Greatest increase. I am gointo to repeat step 14 but instead of total volume column I will use the percentage change column Range L2:L
-            If ws.Cells(i,12).Value < GreatestIncrease then 
+            If ws.Cells(i,12).Value > GreatestIncrease then 
                 GreatestIncrease = ws.Cells(i,12).Value
                 ws.Cells(2,17).value = ws.Cells(i,10).Value
             'finish the conditional with an else statement

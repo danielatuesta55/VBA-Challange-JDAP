@@ -94,7 +94,28 @@ Sub TestData ()
                 'I need to close the for loop with the next i statment
                 Next i 
             
-                    
+    'PART 11: I need to be able to know what is the last non-blank cell in column J to star my Challange table 
+        LastRowColumnJ = ws.Cells(Rows.Count,10).End(xlUp).Row)
+        'I can crete a msgbox to see if its ok
+        'Msgbox("The last row in column J is" & LastRowColumnJ)
+
+    'PART 12: I am adding the variables withe the cells value
+        GreatestVolume = ws.Cells(2,13).Value
+        GreatestIncrease = ws.Cells(2,12).Value
+        GreatestDecrease = ws.Cells(2,12).Value
+    'PART 13: I need to create a Loop for the challange table
+        for i = 2 to LastRowColumnJ
+    'PART 14: Create conditional If statment to calculate the greatest total volume. To do this I am creating a loop that will check if in the column Total Stock Volumen the value on the next cell (i +1) is greater than the next value, if it is it will take over the value and populate ws.cells
+            If ws.Cells(i,13).Value> GreatestVolume Then    
+                GreatestVolume = ws.Cells(i,13).Value
+                ws.Cells(4,17).Value = ws.Cells(i,10).Value
+            'finish the conditional with an else statement
+            Else 
+                GreatestVolume = GreatestVolume
+            'close conditional with End If statement
+            End If
+
+
 
 
 
@@ -107,7 +128,7 @@ Sub TestData ()
 
 
 
-
+    ' I need to close the loop creted to go through all of the worksheets on the workbook with an Next ws statement
     Next ws
     
  

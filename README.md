@@ -4,8 +4,7 @@ This Repository has been made to summit the homework assignment for my Data Scie
 
 VBA Scripting
 
-Student: Jorge Daniel
-Atuesta
+Student: Jorge Daniel Atuesta
 
 February, 2021
 

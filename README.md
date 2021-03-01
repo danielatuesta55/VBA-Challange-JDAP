@@ -1,5 +1,9 @@
 # VBA-Challange-JDAP
 
+## VBA Homework - The VBA of Wall Street
+
+### Intention of the Repository
+
 This Repository has been made to summit the homework assignment for my Data Science Bootcamp at Northwestern University
 
 VBA Scripting
@@ -9,6 +13,8 @@ Student: Jorge Daniel Atuesta
 February, 2021
 
 ---
+
+### What you will find in this Repository
 
 On the following repository the reader will be able to find
 my solution to the homework assignment VBA scripting. The repository will be organized into several folders:
@@ -21,9 +27,81 @@ I hope you find my work to not only be complete but displaying all of the knowle
 
 ---
 
-I am attaching the assigment instructions provided by the school:
+# Homework Analysis
 
-# VBA Homework - The VBA of Wall Street
+## Description of assignment
+
+For this challenge we are using VBA scripting to analyze
+real stock market data. We have been provided a database with the following
+information:
+
+* Stock identifier (Ticker)
+* Date
+* Open amount
+* Highest amount
+* Lowest amount
+* Close date
+* Volume of stock
+
+Using VBA scripting out challenges were the following:
+
+1. Loop through all stocks for one year and output
+   the following information on separate columns
+
+   * The ticker symbol.
+   * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+   * The percent change from the opening price at the beginning of a given year to the closing price at the end of that year.
+   * The total stock volume of the stock.
+2. Code conditional formatting that will highlight positive change in green and negative change in red.
+3. Create a summary table that will show the return of the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".
+4. We must run our code in all worksheets of the workbook just by running the VBA script once.
+
+## Outcomes of the project
+
+### Test Data outcomes
+
+Initially I had to create a VBA script for the trial database. This first script was utilized as a test dummy to see if I was able to solve all the challenges. Here is the VBA script I used for this database:
+
+![VBA Script for test file](VBAScripts/TestData.vbs)
+
+Here are the results I got after accomplishing all the challanges. The results are shown as screenshots of each worksheet in the test workbook:
+
+![WorksheetA](SolutionScreenShots/Alphabetical_Testing/ScreenShot_A.jpg)
+
+![WorksheetB](SolutionScreenShots/Alphabetical_Testing/ScreenShot_B.jpg)
+
+![WorksheetC](SolutionScreenShots/Alphabetical_Testing/ScreenShot_C.jpg)
+
+![WorksheetD](SolutionScreenShots/Alphabetical_Testing/ScreenShot_D.jpg)
+
+![WorksheetE](SolutionScreenShots/Alphabetical_Testing/ScreenShot_E.jpg)
+
+![WorksheetF](SolutionScreenShots/Alphabetical_Testing/ScreenShot_F.jpg)
+
+![WorksheetP](SolutionScreenShots/Alphabetical_Testing/ScreenShot_P.jpg)
+
+### Multi Year Stock Data outcomes
+
+After being able to successfully acomplish the challanges (as shown in the test outcomes tab) I continued to the homeworks assignment database and ran the following VBA script:
+
+![VBA Script for MultiYearStock](VBAScripts/MultiYearStockData.vbs)
+
+Here are the results I got after accomplishing all the challanges. The results are shown as screenshots of each worksheet in the test workbook:
+
+![Year 2014](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2014.jpg)
+
+![Year 2015](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2015.jpg)
+
+![Year 2016](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2016.jpg)
+
+As you can appreciate I was able to write a VBA script that in a single run was able to loop through all the worksheets in the workbook and complete the challenges mentioned on the description of assignment tab above.
+
+---
+
+# Assignment instructions provided by Northwestern Data Science Bootcamp
+
+
+VBA Homework - The VBA of Wall Street
 
 ## Background
 

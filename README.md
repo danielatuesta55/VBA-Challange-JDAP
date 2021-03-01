@@ -98,8 +98,25 @@ As you can appreciate I was able to write a VBA script that in a single run was 
 
 ---
 
-# Assignment instructions provided by Northwestern Data Science Bootcamp
+# References
 
+In the VBA scripts I placed the links to different webpages I used to be able to accomplish this project. You can also find here a list of the references I used:
+
+
+Acampora, J. (2015, May 11). *VBA Tutorial: Find the Last Row, Column, or Cell on a Sheet*. Retrieved from Excel Campus: https://www.excelcampus.com/vba/find-last-row-column cell/#:~:text=To%20find%20the%20last%20used,the%20rows%20in%20the%20worksheet.
+
+AutomateExcel. (2021). *Excel VBA: ColorIndex Codes List & RGB Colors*. Retrieved from AutoMateExcel.com: https://www.automateexcel.com/excel-formatting/color-reference-for-color-index/
+
+AutomateExcel. (2021). *VBA Sum Function (Ranges, Columns, & More)*. Retrieved from AutomateExcel.com: https://www.automateexcel.com/vba/sum-function/
+
+ExcelHowTo. (2014, September 11). *Formatting a Range of Cells In Excel VBA*. Retrieved from Excel How To: https://www.excelhowto.com/macros/formatting-a-range-of-cells-in-excel-vba/
+
+**Please note: *I am new to READ.md files and I could not do the proper citation of the references following the APA style***
+
+
+---
+
+# Assignment instructions provided by Northwestern Data Science Bootcamp
 
 VBA Homework - The VBA of Wall Street
 

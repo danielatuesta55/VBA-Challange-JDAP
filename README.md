@@ -103,7 +103,7 @@ As you can appreciate I was able to write a VBA script that in a single run was 
 In the VBA scripts I placed the links to different webpages I used to be able to accomplish this project. You can also find here a list of the references I used:
 
 
-Acampora, J. (2015, May 11). *VBA Tutorial: Find the Last Row, Column, or Cell on a Sheet*. Retrieved from Excel Campus: https://www.excelcampus.com/vba/find-last-row-column cell/#:~:text=To%20find%20the%20last%20used,the%20rows%20in%20the%20worksheet.
+Acampora, J. (2015, May 11). *VBA Tutorial: Find the Last Row, Column, or Cell on a Sheet*. Retrieved from Excel Campus: https://www.excelcampus.com/vba/find-last-row-columncell/#:~:text=To%20find%20the%20last%20used,the%20rows%20in%20the%20worksheet.
 
 AutomateExcel. (2021). *Excel VBA: ColorIndex Codes List & RGB Colors*. Retrieved from AutoMateExcel.com: https://www.automateexcel.com/excel-formatting/color-reference-for-color-index/
 

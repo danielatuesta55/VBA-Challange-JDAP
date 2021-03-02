@@ -16,7 +16,7 @@ February, 2021
 
 ### What you will find in this Repository
 
-On the following repository the reader will be able to find my solution to the homework assignment VBA scripting. The repository will be organized into several folders:
+On the following repository the reader will be able to find my solution to the homework assignment VBA scripting. The repository is organized into several folders:
 
 1. Folder one will have Images that are related to the readme.md class instructions. You can avoid navigating this folder
 2. Folder two will have the screenshots for the solutions. Inside this folder you will have two other folders each one containing the screenshots of the Alphabetical testing results and the Multi Yearly Stock Data.

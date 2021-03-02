@@ -16,14 +16,13 @@ February, 2021
 
 ### What you will find in this Repository
 
-On the following repository the reader will be able to find
-my solution to the homework assignment VBA scripting. The repository will be organized into several folders:
+On the following repository the reader will be able to find my solution to the homework assignment VBA scripting. The repository will be organized into several folders:
 
 1. Folder one will have Images that are related to the readme.md class instructions. You can avoid navigating this folder
 2. Folder two will have the screenshots for the solutions. Inside this folder you will have two other folders each one containing the screenshots of the Alphabetical testing results and the Multi Yearly Stock Data.
-3. Folder three contains all the VBA scripts used for both the alphabetical testing and the Multi Yealy Stock Data. They are essentially the same code what changes are the Sub () name.
+3. Folder three contains all the VBA scripts used for both the alphabetical testing and the Multi Yearly Stock Data. They are essentially the same code what changes are the Sub () name.
 
-I hope you find my work to not only be complete but displaying all of the knowledge learned through out this portion of the Bootcamp at Northwestern University.
+I hope you find my work to not only be complete but displaying all of the knowledge learned throughout this portion of the Data Science Bootcamp at Northwestern University.
 
 ---
 
@@ -31,9 +30,7 @@ I hope you find my work to not only be complete but displaying all of the knowle
 
 ## Description of assignment
 
-For this challenge we are using VBA scripting to analyze
-real stock market data. We have been provided a database with the following
-information:
+For this challenge we are using VBA scripting to analyze real stock market data. We have been provided a database with the following information:
 
 * Stock identifier (Ticker)
 * Date
@@ -45,8 +42,7 @@ information:
 
 Using VBA scripting out challenges were the following:
 
-1. Loop through all stocks for one year and output
-   the following information on separate columns
+1. Loop through all stocks for one year and output the following information on separate columns
 
    * The ticker symbol.
    * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
@@ -68,17 +64,28 @@ Here are the results I got after accomplishing all the challanges. The results a
 
 ![WorksheetA](SolutionScreenShots/Alphabetical_Testing/ScreenShot_A.jpg)
 
-![WorksheetB](SolutionScreenShots/Alphabetical_Testing/ScreenShot_B.jpg)
+During period A, the stock with the greatest percetn increase was AKS. The stock with the greatest percent decrease was ADPT and, the stock with the greatest total volume was AA. ![WorksheetB](SolutionScreenShots/Alphabetical_Testing/ScreenShot_B.jpg)
+
+During period B, the stock with the greatest percetn increase was BAS. The stock with the greatest percent decrease was BCEI and, the stock with the greatest total volume was BAC.
 
 ![WorksheetC](SolutionScreenShots/Alphabetical_Testing/ScreenShot_C.jpg)
 
-![WorksheetD](SolutionScreenShots/Alphabetical_Testing/ScreenShot_D.jpg)
+During period C, the stock with the greatest percetn increase was CBO. The stock with the greatest percent decrease was CGG and, the stock with the greatest total volume was CHK.![WorksheetD](SolutionScreenShots/Alphabetical_Testing/ScreenShot_D.jpg)
+
+During period D, the stock with the greatest percetn increase was DRD. The stock with the greatest percent decrease was DYN.W and, the stock with the greatest total volume was DNR.
 
 ![WorksheetE](SolutionScreenShots/Alphabetical_Testing/ScreenShot_E.jpg)
 
-![WorksheetF](SolutionScreenShots/Alphabetical_Testing/ScreenShot_F.jpg)
+During period E, the stock with the greatest percetn increase was EBR. The stock with the greatest percent decrease was EMG and, the stock with the greatest total volume was EAC.
+
+
+![WorksheetF](SolutionScreenShots/Alphabetical_Testing/ScreenShot_f.jpg)
+
+During period F, the stock with the greatest percetn increase was FMSA. The stock with the greatest percent decrease was FIT and, the stock with the greatest total volume was FCX.
 
 ![WorksheetP](SolutionScreenShots/Alphabetical_Testing/ScreenShot_P.jpg)
+
+During period P, the stock with the greatest percetn increase was PANW. The stock with the greatest percent decrease was PWE and, the stock with the greatest total volume was PBR.
 
 ### Multi Year Stock Data outcomes
 
@@ -90,9 +97,13 @@ Here are the results I got after accomplishing all the challanges. The results a
 
 ![Year 2014](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2014.jpg)
 
+During the year 2014, the stock with the greatest percetn increase was DM. The stock with the greatest percent decrease was CBD and, the stock with the greatest total volume was BAC.
+
 ![Year 2015](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2015.jpg)
 
-![Year 2016](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2016.jpg)
+During the year 2015, the stock with the greatest percetn increase was APR. The stock with the greatest percent decrease was KMI.W and, the stock with the greatest total volume was BAC.![Year 2016](SolutionScreenShots/MultiYearlyStockData/ScreenShot_Year_2016.jpg)
+
+During the year 2016, the stock with the greatest percetn increase was SD. The stock with the greatest percent decrease was DYN.W and, the stock with the greatest total volume was BAC.
 
 As you can appreciate I was able to write a VBA script that in a single run was able to loop through all the worksheets in the workbook and complete the challenges mentioned on the description of assignment tab above.
 
@@ -101,7 +112,6 @@ As you can appreciate I was able to write a VBA script that in a single run was 
 # References
 
 In the VBA scripts I placed the links to different webpages I used to be able to accomplish this project. You can also find here a list of the references I used:
-
 
 Acampora, J. (2015, May 11). *VBA Tutorial: Find the Last Row, Column, or Cell on a Sheet*. Retrieved from Excel Campus: https://www.excelcampus.com/vba/find-last-row-columncell/#:~:text=To%20find%20the%20last%20used,the%20rows%20in%20the%20worksheet.
 
@@ -112,7 +122,6 @@ AutomateExcel. (2021). *VBA Sum Function (Ranges, Columns, & More)*. Retrieved f
 ExcelHowTo. (2014, September 11). *Formatting a Range of Cells In Excel VBA*. Retrieved from Excel How To: https://www.excelhowto.com/macros/formatting-a-range-of-cells-in-excel-vba/
 
 **Please note: *I am new to READ.md files and I could not do the proper citation of the references following the APA style***
-
 
 ---
 

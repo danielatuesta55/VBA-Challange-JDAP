@@ -79,7 +79,7 @@ During period D, the stock with the greatest percetn increase was DRD. The stock
 During period E, the stock with the greatest percetn increase was EBR. The stock with the greatest percent decrease was EMG and, the stock with the greatest total volume was EAC.
 
 
-![WorksheetF](SolutionScreenShots/Alphabetical_Testing/ScreenShot_f.jpg)
+![WorksheetF](SolutionScreenShots/Alphabetical_Testing/ScreenShot_F.jpg)
 
 During period F, the stock with the greatest percetn increase was FMSA. The stock with the greatest percent decrease was FIT and, the stock with the greatest total volume was FCX.
 

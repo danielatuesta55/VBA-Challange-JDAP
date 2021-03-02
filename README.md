@@ -28,7 +28,7 @@ I hope you find my work to not only be complete but displaying all of the knowle
 
 # Homework Analysis
 
-## Description of assignment
+## Description of the assignment
 
 For this challenge we are using VBA scripting to analyze real stock market data. We have been provided a database with the following information:
 
